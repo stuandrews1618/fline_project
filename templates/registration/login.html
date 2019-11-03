@@ -12,7 +12,7 @@
   <button type="submit">Login</button>
 </form> -->
 
-<div class="text-center sign-in-body">
+<div class="center-block text-center sign-in-body vertical-center">
   <form class="form-signin" action="{% url 'login' %}" method="post">
     {% csrf_token %}
     <img class="mb-4" src="{% static 'img/logo.png' %}" alt="">

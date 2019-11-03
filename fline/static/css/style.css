@@ -1,3 +1,11 @@
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
 .btn-secondary {
   color: #fff !important; }
 
@@ -85,9 +93,10 @@ img {
     #showcase p {
       display: none; }
   #top-bar {
-    text-align: center; }
-    #top-bar .social {
-      text-align: center !important; } }
+    text-align: center;
+    background-color: #001429; } }
+    /* #top-bar .social {
+      text-align: center !important; } } */
 
 @media (max-width: 576px) {
   #showcase h1 {
@@ -143,4 +152,13 @@ img {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+#top-bar {
+  text-align: center;
+  background-color: #57617d;
+  color: #d9d8d6 }
+
+.bg-primary {
+    background-color: #002c5c!important;
 }

@@ -40,6 +40,8 @@
   box-sizing: border-box; }
 
 html {
+  margin: 0;
+  height: 100%;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -55,13 +57,14 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #d9d8d6;
   text-align: left;
-  background-color: #fff; }
+  background-color: #002c5c; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -4278,7 +4281,7 @@ button.close {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #002c5c !important; }
+  background-color: #002043 !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
