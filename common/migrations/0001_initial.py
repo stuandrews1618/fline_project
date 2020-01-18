@@ -12,11 +12,10 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='Company',
+            name='CompanyType',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('company_name', models.CharField(max_length=255, unique=True, verbose_name='Company Name')),
-                ('website', models.URLField(blank=True, max_length=255, verbose_name='Website')),
+                ('company_type', models.CharField(max_length=100, verbose_name='Type of Company')),
             ],
         ),
     ]
